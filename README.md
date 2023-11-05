@@ -2,6 +2,7 @@
 VladimirSergeevichRU Infra repository
 
 ## Homework 3. Знакомство с облачной инфраструктурой Yandex.Cloud
+Данные для подклчюения:
 ```
 bastion_IP = 158.160.120.207
 someinternalhost_IP = 10.128.0.10
