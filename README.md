@@ -46,4 +46,5 @@ TLS подключение к bastion для доступа в веб панел
 
 
 bastion_IP = 158.160.120.207
+
 someinternalhost_IP = 10.128.0.10
