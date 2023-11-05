@@ -3,8 +3,8 @@ VladimirSergeevichRU Infra repository
 
 ## Homework 3. Знакомство с облачной инфраструктурой Yandex.Cloud
 ```
-	public_IP = 158.160.120.207
-	internal_IP = 10.128.0.27
+bastion_IP = 158.160.120.207
+someinternalhost_IP = 10.128.0.10
 ```
 ### Создание VM и подключение к ним по ssh
 На локальной машине сгенерировал ssh ключ для дальнейшего использования в cloud.yandex
