@@ -26,7 +26,21 @@ VladimirSergeevichRU Infra repository
         ProxyJump <public ip bastion>
         User appuser
 
+Также есть второй вариант реализовать только через настройку ssh config:
 
+
+Host bastion
+    HostName <public ip bastion>
+    User appuser
+    ForwardAgent yes
+    IdentityFile ~/.ssh/appuser
+
+Host someinternalhost
+    HostName <internal ip someinternalhost>
+    ProxyJump bastion
+    User appuser
+    ForwardAgent yes
+    IdentityFile ~/.ssh/appuser
 ------------------------------------------------------------------------------------------------------------------------
 
 
