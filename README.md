@@ -31,12 +31,15 @@ VladimirSergeevichRU Infra repository
 
 
 Для проверки OVPN подключения к серверу bastion испольуем следующий адрес:
+
 	-public_IP = 158.160.120.207
 	-internal_IP = 10.128.0.27
 Для проверки доступности internal host:
+
 	-someinternalhost_IP = 10.128.0.10
 
 TLS подключение к bastion для доступа в веб панель управления VPN сервером:
+
 	-https://server.158-160-120-207.sslip.io
 
 Учётные данные пользователя вставлены в блок конфигурации cloud-bastion.ovpn - auth-user-pass
